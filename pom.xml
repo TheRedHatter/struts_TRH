@@ -110,11 +110,16 @@
         <!-- dependency versions in alphanumeric order -->
         <asm.version>9.2</asm.version>
         <jackson.version>2.10.5</jackson.version>
+
         <jackson-databind.version>2.10.5.1</jackson-databind.version>
         <log4j2.version>2.17.1</log4j2.version>
+=======
+        <jackson-databind.version>2.12.7.1</jackson-databind.version>
         <ognl.version>3.2.20</ognl.version>
         <slf4j.version>1.7.32</slf4j.version>
-        <spring.platformVersion>4.3.30.RELEASE</spring.platformVersion>
+        <spring.platformVersion>6.0.0</spring.platformVersion>
+        <!--<spring.platformVersion>5.2.22.RELEASE</spring.platformVersion>-->
+
         <tiles.version>3.0.8</tiles.version>
         <tiles-request.version>1.0.7</tiles-request.version>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
@@ -795,7 +800,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.13</version>
+                <version>4.13.1</version>
             </dependency>
 
             <dependency>
@@ -942,7 +947,7 @@
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
-                <version>1.4</version>
+                <version>1.5</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
@@ -957,7 +962,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>1.8</version>
+                <version>1.10.0</version>
             </dependency>
             <dependency>
                 <groupId>commons-digester</groupId>
@@ -1134,7 +1139,7 @@
             <dependency>
                 <groupId>com.thoughtworks.xstream</groupId>
                 <artifactId>xstream</artifactId>
-                <version>1.4.18</version>
+                <version>1.4.19</version>
                 <exclusions>
                     <exclusion>
                         <groupId>io.github.x-stream</groupId>
@@ -1224,7 +1229,7 @@
             <dependency>
                 <groupId>xerces</groupId>
                 <artifactId>xercesImpl</artifactId>
-                <version>2.12.0</version>
+                <version>2.12.2</version>
                 <scope>test</scope>
             </dependency>
 
